@@ -1,8 +1,9 @@
 const Discord = require('discord.js');
 exports.run = (client, guild) => {
+
   var messageEmbed = new Discord.RichEmbed()
         .setTitle('membot')
-        .setImage('././images/pepe.png')
+        .setImage('https://lh3.googleusercontent.com/j5fD3m5qXRNtGYDuajhEtS_etFvU8FE5PogmqTY2hrshDG0_urf_UBeVAyJljoCxdf4=w300')
         .setAuthor('membot')
         .addField('Creator', 'Moosecoop#3054')
         .setURL('https://moosecoop.github.io/membot/')
