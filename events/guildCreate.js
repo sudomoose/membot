@@ -11,7 +11,7 @@ exports.run = (client, guild) => {
         .description('membot is a Discord bot for anyone who wants more memes in their life (or Discord server).')
         .setColor("#039112");
 
-    msg.channel.sendEmbed(
-        messageEmbed, ''
+    guild.defaultChannel.sendEmbed(
+        messageEmbed, '.'
     );
 };
