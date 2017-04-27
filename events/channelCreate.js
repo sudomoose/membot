@@ -1,3 +1,3 @@
 exports.run = (client, channel) => {
-  channel.sendMessage('First!');
+  channel.sendMessage('First!!!1!!');
 };

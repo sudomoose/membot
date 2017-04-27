@@ -9,7 +9,7 @@ exports.run = (client, msg) => {
 
     msg.channel.sendEmbed(
         msgEmbed, ''
-    )
+    );
 };
 
 exports.conf = {
