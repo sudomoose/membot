@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 exports.run = (client, msg) => {
     var memes = [
-        "0.jpg",
         "1.jpg",
         "2.jpg",
         "3.jpg",
@@ -12,10 +11,12 @@ exports.run = (client, msg) => {
         "8.jpg",
         "9.png",
         "10.jpg",
-        "11.png"
+        "11.png",
+        "12.jpg"
     ]
 
     var mem = memes[Math.floor(Math.random() * memes.length) + 1];
+    console.log(`mem: ././mems/${mem}`);
     msg.channel.sendFile(`././mems/${mem}`);
 };
 
