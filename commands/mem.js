@@ -12,7 +12,8 @@ exports.run = (client, msg) => {
         "9.png",
         "10.jpg",
         "11.png",
-        "12.jpg"
+        "12.jpg",
+        "13.png"
     ]
 
     var mem = memes[Math.floor(Math.random() * memes.length) + 1];

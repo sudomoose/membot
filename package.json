@@ -1,7 +1,7 @@
 {
-  "name": "memebot",
+  "name": "membot",
   "version": "1.0.0",
-  "description": "",
+  "description": "membot is a Discord bot for anyone who wants more memes in their life (or Discord server).",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,19 @@
   "author": "moosecoop",
   "license": "ISC",
   "dependencies": {
-    "komada": "^0.18.1"
-  }
+    "komada": "^0.18.1",
+    "snekfetch": "^3.1.6"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moosecoop/membot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Moosecoop/membot/issues"
+  },
+  "homepage": "https://github.com/Moosecoop/membot#readme"
 }
