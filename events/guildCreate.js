@@ -1,3 +1,4 @@
+const snekfetch = require('snekfetch');
 exports.run = (client, guild) => {
     var channel = guild.defaultChannel;
     var name = guild.name;
