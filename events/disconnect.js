@@ -4,6 +4,5 @@ const chalk = require("chalk");
 const clk = new chalk.constructor({ enabled: true });
 
 exports.run = (client, CloseEvent) => {
-  client.login(tokens.dAPI)
-    .then(console.log(`${clk.bgRed(`[${moment().format("YYYY-MM-DD HH:mm:ss")}]`)} Reconnecting`));
+  console.log('disconnected');
 };

@@ -1,0 +1,8 @@
+{
+    "commands"  : {
+        "about" : {
+            "name" : "about",
+            "description" : "about membot"
+        }
+    }
+}
