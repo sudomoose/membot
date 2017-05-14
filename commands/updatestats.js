@@ -19,7 +19,7 @@ exports.conf = {
 
 exports.help = {
     name: "update",
-    description: "",
+    description: "for moose only",
     usage: "",
     usageDelim: "",
     extendedHelp: "",
