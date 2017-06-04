@@ -9,6 +9,7 @@
   "author": "moosecoop",
   "license": "ISC",
   "dependencies": {
+    "discord.js": "^11.1.0",
     "komada": "^0.18.1",
     "prettyconsole": "^0.2.0",
     "snekfetch": "^3.1.6"

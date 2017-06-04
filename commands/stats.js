@@ -14,7 +14,7 @@ exports.run = (client, msg) => {
     .addField('Memory Usage', `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB`, true)
     .addField('Library', 'Komada')
     .addField('Komada Version', `v${komada.version}`, true)
-    .addField('Uptime', `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB`)
+    .addField('Uptime', `${duration}`)
     .setTimestamp()
     .setColor("#039112")
     .setFooter('© MooseHub 2017', 'https://images.discordapp.net/avatars/305503688145895424/f4d94eaaaa7ddf0c46b5e4f5626e27cf.png?size=512');

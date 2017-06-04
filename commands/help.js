@@ -1,15 +1,17 @@
 const Discord = require('discord.js');
-exports.run = (client, msg, [cmd]) => {
+exports.run = (client, msg) => {
   var helpEmbed = new Discord.RichEmbed()
     .setTitle(`Commands`)
-    .setAuthor(`dat boi named ${msg.author.username}`, `${msg.author.avatarURL}`)
+    .setAuthor(`dat boi named ${msg.author.username}`)
     .setColor("#039112")
     .setTimestamp()
     .setDescription(`A list of membot's commands n stuff`)
     .addField('Commands', `help - help commandn\nstats - membot's staff\nmem - random mem\ninvite - membot's invite link\nabout - about membot\n4chan - link to 4chan`)
-    .setFooter(`Requested by ${msg.author.username}`, `${msg.author.avatarURL}`);
+    .setFooter(`Requested by ${msg.author.username}`);
 
-  msg.channel.send(helpEmbed);
+  msg.channel.sendEmbed(
+        helpEmbed, ''
+    );
 };
 
 exports.conf = {
